@@ -53,7 +53,7 @@ body {
           align-items: center;
   height: 150px;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 15vh;
   color: white;
   font-family: "Norse", sans-serif;
   font-size: 4rem;
@@ -81,7 +81,7 @@ body {
   width: 70%;
   height: 100vh;
   background-color: #f4f4f4;
-  padding: 200px 0px;
+  padding: 15vh 0px;
 }
 
 #right h2,
@@ -139,6 +139,8 @@ body {
 #right #right-form form .section .form-group input:focus {
   border: 1px solid #0c0cb8;
   outline: none;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 #right #right-form form .section .form-group #message {
